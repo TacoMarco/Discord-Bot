@@ -15,5 +15,4 @@ async def on_member_join(member):
     role = discord.utils.get(member.guild.roles, name="Bread Supporter")
     await member.add_roles(role)
     print('joined')
-
-client.run('NjMyNDczOTk2MjY4NTM1ODA4.XpZpPg.uumd2_Wxq5Ezy9Uxp-WZhyLuVrE')
+client.run('')
